@@ -1,25 +1,26 @@
-var assert = require('chai').assert
-	, server = require('./index')
-	, Events = require('events').EventEmitter;
+/* eslint-env node, mocha */
+'use strict';
 
-describe('Routing Tests', function () {
-	it('should return a function that starts a server', function () {
-		assert.isFunction(server.server);
-	});
+const assert = require('chai').assert
+    , server = require('./index');
 
-	it('should have a parseWildCardRoute function', function () {
-		assert.isFunction(server.parseWildCardRoute);
-	});
 
-	it('should have a isWildCardRoute function', function () {
-		assert.isFunction(server.isWildCardRoute);
-	});
+describe('Routing Tests', () => {
+    // let routeObject;
 
-	it('should have a parseRoutes function', function () {
-		assert.isFunction(server.parseRoutes);
-	});
+    // beforeEach(() => {
+    //     routeObject = require('../test_stubs/routes_stub.json');
+    // });
 
-	it('should have a parsePath function', function () {
-		assert.isFunction(server.parsePath);
-	});
+    it('should return a function that starts a server', () => {
+        assert.isFunction(server.server);
+    });
+
+    it('should have a parseWildCardRoute function', () => {
+        assert.isFunction(server.parseWildCardRoute);
+    });
+
+    it('should have a isWildCardRoute function', () => {
+        assert.isFunction(server.isWildCardRoute);
+    });
 });

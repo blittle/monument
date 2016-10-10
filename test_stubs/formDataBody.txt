@@ -1,0 +1,13 @@
+------WebKitFormBoundaryTB2MiQ36fnSJlrhY
+Content-Disposition: form-data; name="cont"
+
+some random content
+------WebKitFormBoundaryTB2MiQ36fnSJlrhY
+Content-Disposition: form-data; name="pass"
+
+some random pass
+------WebKitFormBoundaryTB2MiQ36fnSJlrhY
+Content-Disposition: form-data; name="bit"
+
+2
+------WebKitFormBoundaryTB2MiQ36fnSJlrhY--
